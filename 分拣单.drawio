@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" modified="2024-06-24T03:02:13.536Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="9wO0RrLsAr6KrbQLTxiC" version="24.0.4" type="github">
+  <diagram name="第 1 页" id="VNoP3vuLeo1OHvruYb4i">
+    <mxGraphModel dx="1540" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-1" target="isyNXtuVwnmBAB3Z3qwp-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-1" value="选择出库单&lt;div&gt;状态：已接单|待分组配置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-2" target="isyNXtuVwnmBAB3Z3qwp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-2" value="手选择物料&lt;div&gt;生成分拣单&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-4" value="生成分拣单&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 13px; text-wrap: nowrap;&quot;&gt;&lt;b&gt;&lt;u&gt;状态：已分组配置|待领单&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-6" target="isyNXtuVwnmBAB3Z3qwp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-6" value="扫码领单&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;u&gt;状态：已领单|待分拣&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;u style=&quot;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;分拣计时开始&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-41" target="isyNXtuVwnmBAB3Z3qwp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-44" value="通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="isyNXtuVwnmBAB3Z3qwp-11">
+          <mxGeometry x="-0.2043" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-8" value="收取分拣单&lt;div&gt;&lt;b&gt;&lt;u&gt;&lt;font color=&quot;#ff0000&quot;&gt;状态：已分拣|待审核&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;&lt;font color=&quot;#0000ff&quot;&gt;分拣计时暂停&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;&lt;font color=&quot;#ff9933&quot;&gt;审核计时开始&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="700" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-10" value="扫码结束分拣&lt;div&gt;&lt;b&gt;&lt;u&gt;&lt;font color=&quot;#ff0000&quot;&gt;状态：已审核&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;u style=&quot;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;保存分拣时间（累加）&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;&lt;font color=&quot;#ff9933&quot;&gt;审核计时结束&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="831.25" width="120" height="68.75" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1096" y="495" as="sourcePoint" />
+            <mxPoint x="1106" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-20" value="&lt;b style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;1.此方法的主要工作在仓库管理员角色&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;2.分组管理中的组员执行分拣操作时不需要扫出库单二维码作为记录，&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;在派单时直接关联&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;3.审核组和审核组还是需要扫出库单二维码，此时需要校验其下的分拣单是否都已完成&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;4.此时可以统计每个订单的时效、每个人的时效&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="120" width="680" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-23" target="isyNXtuVwnmBAB3Z3qwp-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1097.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-23" value="给分组配置分拣物料" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="850" y="120" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-26" value="根据分组配置自动&lt;div&gt;生成分拣单&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="850" y="305" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-27" target="isyNXtuVwnmBAB3Z3qwp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-30" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="isyNXtuVwnmBAB3Z3qwp-28">
+          <mxGeometry x="-0.1278" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-27" target="isyNXtuVwnmBAB3Z3qwp-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-31" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="isyNXtuVwnmBAB3Z3qwp-29">
+          <mxGeometry x="-0.131" y="-7" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-27" value="是否自动生成分拣单" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-32" target="isyNXtuVwnmBAB3Z3qwp-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="435" />
+              <mxPoint x="710" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-34" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="isyNXtuVwnmBAB3Z3qwp-33">
+          <mxGeometry x="0.017" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-32" target="isyNXtuVwnmBAB3Z3qwp-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="915" y="490" />
+              <mxPoint x="670" y="490" />
+              <mxPoint x="670" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-37" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="isyNXtuVwnmBAB3Z3qwp-36">
+          <mxGeometry x="-0.4519" relative="1" as="geometry">
+            <mxPoint x="556" y="-125" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-38" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="isyNXtuVwnmBAB3Z3qwp-36">
+          <mxGeometry x="0.0222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-32" value="是否修改" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="860" y="400" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-26" target="isyNXtuVwnmBAB3Z3qwp-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-41" target="isyNXtuVwnmBAB3Z3qwp-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-41" value="是否审核通过" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="525" y="707.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-8" target="isyNXtuVwnmBAB3Z3qwp-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-47" target="isyNXtuVwnmBAB3Z3qwp-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="558" />
+              <mxPoint x="460" y="640" />
+              <mxPoint x="410" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-47" value="状态更新为&lt;div&gt;&lt;b&gt;&lt;u&gt;&lt;font color=&quot;#ff3333&quot;&gt;整改1|分拣中&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;&lt;font color=&quot;#0000ff&quot;&gt;分拣计时恢复&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="530" width="150" height="55.5" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-53" value="注： 1.由组长扫码领单即可&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2.每个分组中有默认组员&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3.组长可以临时添加别组人员帮其打包&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;4.组长也可以用手动输入方式添加临时工进组（可保存，下次若是同一个人可以重复调用）&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="530" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-54" value="注：&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1.需要记录分拣时长、整改次数、审核时长、平均审核时长（总时长➗整改次数）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="831.25" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-70" target="isyNXtuVwnmBAB3Z3qwp-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="440" as="sourcePoint" />
+            <mxPoint x="80" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="isyNXtuVwnmBAB3Z3qwp-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isyNXtuVwnmBAB3Z3qwp-70" value="撤销" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="410" width="100" height="58" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
